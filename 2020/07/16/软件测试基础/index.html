@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>微信小程序云开发基础 | Hexo</title>
+  <title>软件测试基础 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="云开发所具备的编程基础 HTML,CSS ：基础中的基础，最简单的标记语言，务必掌握flex布局。 JS：推荐更多的使用ES5，ES6。深入了解JS触发事件机制。 Node.js:运行在服务端的JavaScript。云函数现有唯一支持语言（8.9）。 MongoDB:介于关系数据库和非关系数据库之间的产品，是非关系数据库当中     最像关系数据库的。云开发现有唯一支持的数据库。云开发项目初始化">
+  <meta name="description" content="测试方法： 1.黑盒测试（又称功能测试）：把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。黑盒测试是在程序接口进行的测试，只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息（例如数据库或文件）的完整性。 2.白盒测试（又称结构测试）是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。这种方">
 <meta property="og:type" content="article">
-<meta property="og:title" content="微信小程序云开发基础">
-<meta property="og:url" content="http://yoursite.com/2020/06/23/Untitled/index.html">
+<meta property="og:title" content="软件测试基础">
+<meta property="og:url" content="http://yoursite.com/2020/07/16/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="云开发所具备的编程基础 HTML,CSS ：基础中的基础，最简单的标记语言，务必掌握flex布局。 JS：推荐更多的使用ES5，ES6。深入了解JS触发事件机制。 Node.js:运行在服务端的JavaScript。云函数现有唯一支持语言（8.9）。 MongoDB:介于关系数据库和非关系数据库之间的产品，是非关系数据库当中     最像关系数据库的。云开发现有唯一支持的数据库。云开发项目初始化">
+<meta property="og:description" content="测试方法： 1.黑盒测试（又称功能测试）：把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。黑盒测试是在程序接口进行的测试，只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息（例如数据库或文件）的完整性。 2.白盒测试（又称结构测试）是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。这种方">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-06-23T00:39:11.000Z">
-<meta property="article:modified_time" content="2020-07-05T07:25:29.410Z">
+<meta property="article:published_time" content="2020-07-16T13:38:26.000Z">
+<meta property="article:modified_time" content="2020-07-16T13:44:06.383Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,37 +154,39 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Untitled" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-软件测试基础" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      微信小程序云开发基础
+      软件测试基础
     </h1>
   
 
         
-        <a href="/2020/06/23/Untitled/" class="archive-article-date">
-  	<time datetime="2020-06-23T00:39:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-23</time>
+        <a href="/2020/07/16/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/" class="archive-article-date">
+  	<time datetime="2020-07-16T13:38:26.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-16</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>云开发所具备的编程基础</p>
-<pre><code>HTML,CSS ：基础中的基础，最简单的标记语言，务必掌握flex布局。
-JS：推荐更多的使用ES5，ES6。深入了解JS触发事件机制。
-Node.js:运行在服务端的JavaScript。云函数现有唯一支持语言（8.9）。
-MongoDB:介于关系数据库和非关系数据库之间的产品，是非关系数据库当中     最像关系数据库的。云开发现有唯一支持的数据库。</code></pre><p>云开发项目初始化</p>
-<pre><code>1.cloudfunctinRoot方法存储云函数：
-    project.config.json增加字段cloudfunctionRoot用于指定存放云函数目录（云开发能力
-    从基础库2.2.3开始支持）
-2.wx.cloud.init方法初始化云能力：在小程序端开始使用云能力前，需先调用wx.cloud.init
-    方法完成云能力初始化。
-3.env定义服务默认环境</code></pre>
+        <p>测试方法：</p>
+<pre><code>1.黑盒测试（又称功能测试）：把程序看作一个黑盒子，完全不考虑程序的内部结构和处理过程。黑盒测试是在程序接口进行的测试，只检查程序功能是否能按照规格说明书的规定正常使用，程序是否能适当地接收输入数据并产生正确的输出信息，程序运行过程中能否保持外部信息（例如数据库或文件）的完整性。
+2.白盒测试（又称结构测试）是把程序看成装在一个透明的白盒子里，测试者完全知道程序的结构和处理算法。这种方法按照程序内部的逻辑测试程序，检测程序中的主要执行通路是否都能按预定要求正确工作。</code></pre><p>测试步骤：</p>
+<pre><code>大型软件系统通常由若干个子系统组成，每个子系统又由许多模块组成，因此，大型软件系统的测试过程基本上由模块测试、子系统测试、系统测试、验收测试和平行运行等五个步骤组成。
+1.模块测试的目的是保证每个模块作为一个单元能正确运行，所以模块测试通常又称为单元测试。在这个测试步骤中所发现的往往是编码和详细设计的错误。
+2.子系统测试是把经过单元测试的模块放在一起形成一个子系统来测试。模块相互间的协调和通信是这个测试过程中的主要问题，因此，这个步骤着重测试模块的接口。
+3.系统测试是把经过测试的子系统装配成一个完整的系统来测试。在这个过程中不仅应该发现设计和编码的错误，还应该验证系统确实能提供需求说明书中指定的功能，而且系统的动态特性也符合预定要求。在这个测试步骤中发现的往往是软件设计中的错误，也可能发现需求说明中的错误。
+4.验收测试把软件系统作为单一的实体进行测试，测试内容与系统测试基本类似，但是它是在用户积极参与下进行的，而且可能主要使用实际数据(系统将来要处理的信息)进行测试。
+5.所谓平行运行就是同时运行新开发出来的系统和将被它取代的旧系统，以便比较新旧两个系统的处理结果。这样做的具体目的有如下几点。
+ (1)可以在准生产环境中运行新系统而又不冒风险。
+ (2)用户能有一段熟悉新系统的时间。
+ (3)可以验证用户指南和使用手册之类的文档。
+ (4)能够以准生产模式对新系统进行全负荷测试，可以用测试结果验证性能指标。</code></pre>
       
 
       
@@ -263,7 +265,7 @@ MongoDB:介于关系数据库和非关系数据库之间的产品，是非关系
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/06/23/Untitled/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/07/16/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -277,18 +279,9 @@ MongoDB:介于关系数据库和非关系数据库之间的产品，是非关系
   
 <nav id="article-nav">
   
-    <a href="/2020/07/16/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          软件测试基础
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/06/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2020/06/23/Untitled/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">微信小程序云开发基础</div>
       <i class="icon-circle-right"></i>
     </a>
   
